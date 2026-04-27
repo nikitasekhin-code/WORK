@@ -1591,6 +1591,44 @@ Email має:
 - Якщо зламав — одразу пиши команді
 - Важкий баг — попроси розробника, не витрачай 3 години сам
 
+
+racio-site/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx              ← головна
+│   │   ├── layout.tsx            ← root layout
+│   │   ├── sitemap.ts
+│   │   ├── robots.ts
+│   │   ├── api/
+│   │   │   └── contact/
+│   │   │       └── route.ts      ← форма
+│   │   ├── poslugy/
+│   │   │   ├── page.tsx
+│   │   │   └── [slug]/
+│   │   │       └── page.tsx
+│   │   ├── blog/
+│   │   │   ├── page.tsx
+│   │   │   └── [slug]/
+│   │   │       └── page.tsx
+│   │   ├── pro-nas/
+│   │   ├── kontakty/
+│   │   └── pakety/
+│   ├── components/
+│   │   ├── ui/                   ← Button, Card і т.д.
+│   │   ├── sections/             ← Hero, Services і т.д.
+│   │   └── layout/               ← Header, Footer
+│   ├── lib/
+│   │   ├── sanityClient.ts
+│   │   ├── queries.ts
+│   │   └── utils.ts
+│   └── types/
+│       └── index.ts
+├── sanity/
+│   └── schemas/                  ← всі CMS схеми
+├── .env.local
+├── next.config.js
+├── tailwind.config.ts
+└── racio-project-plan.md
 ---
 
 *Документ: racio-project-plan.md*
