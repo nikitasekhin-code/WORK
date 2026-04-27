@@ -1591,7 +1591,7 @@ Email має:
 - Якщо зламав — одразу пиши команді
 - Важкий баг — попроси розробника, не витрачай 3 години сам
 
-
+```
 racio-site/
 ├── src/
 │   ├── app/
@@ -1632,6 +1632,7 @@ racio-site/
 ├── next.config.js
 ├── tailwind.config.ts
 └── racio-project-plan.md
+```
 ---
 
 *Документ: racio-project-plan.md*
